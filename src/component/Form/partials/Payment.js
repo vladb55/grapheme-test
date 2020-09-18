@@ -36,6 +36,10 @@ function Payment() {
         return hasError;
     }
 
+    function isNumber(value) {
+        return !isNaN(value);
+    }
+
     return (
         <div className="form__content form__content--payment">
             <div className="form__content-title">Оплата</div>
@@ -51,7 +55,9 @@ function Payment() {
                 <Input
                     placeholder="XXXX XXXX XXXX XXXX"
                     error={cardNumberError}
-                    onChange={e => setCardNumber(e.target.value)}/>
+                    minLength={16}
+                    maxLength={16}
+                    onChange={e => isNumber(e.target.value) && setCardNumber(e.target.value)}/>
             </div>
             <div className="form__line">
                 <div className="form__wrap">
@@ -59,14 +65,18 @@ function Payment() {
                     <Input
                         placeholder="MM / YY"
                         error={expirationError}
-                        onChange={e => setExpiration(e.target.value)}/>
+                        minLength={4}
+                        maxLength={4}
+                        onChange={e => isNumber(e.target.value) && setExpiration(e.target.value)}/>
                 </div>
                 <div className="form__wrap">
                     <div className="form__label">CVV</div>
                     <Input
                         placeholder=""
                         error={cvvError}
-                        onChange={e => setCvv(e.target.value)}/>
+                        minLength={3}
+                        maxLength={3}
+                        onChange={e => isNumber(e.target.value) && setCvv(e.target.value)}/>
                 </div>
             </div>
             <button
