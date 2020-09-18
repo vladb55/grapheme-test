@@ -1,0 +1,12 @@
+%chevron-left { background: url("../images/sprite.svg") 0 0; }
+%verify { background: url("../images/sprite.svg") -15px -0px; }
+%chevron-down { background: url("../images/sprite.svg") -80px 0; }
+
+.verify-icon {
+  display: block;
+  min-width: 52px;
+  min-height: 52px;
+  max-width: 52px;
+  max-height: 52px;
+  @extend %verify;
+}
