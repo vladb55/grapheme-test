@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/grapheme-test/static/css/main.53032723.chunk.css",
+    "main.js": "/grapheme-test/static/js/main.3314d9f7.chunk.js",
+    "main.js.map": "/grapheme-test/static/js/main.3314d9f7.chunk.js.map",
+    "runtime-main.js": "/grapheme-test/static/js/runtime-main.ae0c6b66.js",
+    "runtime-main.js.map": "/grapheme-test/static/js/runtime-main.ae0c6b66.js.map",
+    "static/css/2.a9d42089.chunk.css": "/grapheme-test/static/css/2.a9d42089.chunk.css",
+    "static/js/2.2bc58de5.chunk.js": "/grapheme-test/static/js/2.2bc58de5.chunk.js",
+    "static/js/2.2bc58de5.chunk.js.map": "/grapheme-test/static/js/2.2bc58de5.chunk.js.map",
+    "index.html": "/grapheme-test/index.html",
+    "precache-manifest.51ed0150603ed43f908a157f522da069.js": "/grapheme-test/precache-manifest.51ed0150603ed43f908a157f522da069.js",
+    "service-worker.js": "/grapheme-test/service-worker.js",
+    "static/css/2.a9d42089.chunk.css.map": "/grapheme-test/static/css/2.a9d42089.chunk.css.map",
+    "static/css/main.53032723.chunk.css.map": "/grapheme-test/static/css/main.53032723.chunk.css.map",
+    "static/js/2.2bc58de5.chunk.js.LICENSE.txt": "/grapheme-test/static/js/2.2bc58de5.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/grapheme-test/static/media/HelveticaNeueCyr-Thin.afe760ff.ttf",
+    "static/media/semantic.min.css": "/grapheme-test/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/logo.svg": "/grapheme-test/static/media/logo.890a3279.svg",
+    "static/media/Form.scss": "/grapheme-test/static/media/sprite.9e9f1265.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae0c6b66.js",
+    "static/css/2.a9d42089.chunk.css",
+    "static/js/2.2bc58de5.chunk.js",
+    "static/css/main.53032723.chunk.css",
+    "static/js/main.3314d9f7.chunk.js"
+  ]
+}
